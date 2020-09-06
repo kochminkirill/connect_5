@@ -9,6 +9,7 @@ namespace SupportFunctions
     void setColor(int b, int t = Constants::color_black);
     void setCursor(short x, short y);
     Vector getContrastVector(Vector);
+    int getRandomNumber(int min, int max);
 }
 
 #endif

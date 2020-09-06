@@ -14,6 +14,7 @@ public:
     friend void Participant::makeMove(const PointXY&);
     friend bool operator!=(const PointXY&, const PointXY&);
     friend std::ostream& operator<<(std::ostream&, const PointXY&);
+
 private:
     int m_x;
     int m_y;
